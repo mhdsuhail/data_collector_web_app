@@ -4,6 +4,7 @@ import smtplib
 def send_email(email,height,average_height,count):
     from_email = "put email here"
     from_password = "put the password tooo"
+    # also enable less secure app in your google account
     to_email = email
 
     subject="Height Data"
